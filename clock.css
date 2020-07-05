@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(21, 72, 92);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#clockFace{
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 5px solid rgb(0, 0, 0, 1);
+    border-radius: 50%;
+}
+
+.hands{
+    position: absolute; /* LL - use absolute to fix to parent element */
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 48%; /* LL - 50% of parent element */
+    height: 2%;
+    top: 50%; /* LL - moving the element to the middle (vertically) of its parent*/
+    left: 2%;
+    transform: rotate(90deg);
+    transform-origin: right; /* LL - change the axis for rotation
+};
+
+
+
+
+
+
+
